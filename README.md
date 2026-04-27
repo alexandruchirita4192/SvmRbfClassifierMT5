@@ -12,6 +12,7 @@ Support Vector Machine (SVC) with RBF kernel
 ```text
 python train_mt5_svm_rbf_classifier_scale_invariant.py --symbol XAGUSD --timeframe M15 --bars 80000 --horizon-bars 8 --train-ratio 0.82 --output-dir output_svm_rbf_XAGUSD_M15_h8_82
 ```
+### Warning: SVM RBF training took few hours, this is the most time required by any algorithm until now to train an ONNX.
 
 ## Files generated
 
